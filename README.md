@@ -4,7 +4,7 @@ This is the final project for the CS50's Introduction to Game Development course
 
 The purpose of this project was to create a game in either LÖVE or Unity, from start to finish. 
 
-## Quest
+## My final project
 
 'Quest' is a simple RPG game combining elements from Zelda and Undertale, in which the player embarks on a quest to gather several rubies. Each precious stone is stored away safely in a locked chest, which the player must open.
 
@@ -12,13 +12,13 @@ Unfortunatelly for the player, things are a little more complicated than that. E
 
 Showcase: https://www.youtube.com/watch?v=GdZXS60_nrs
 
-## Motivation
+### Motivation
 
 The most difficult aspect of this project was balancing complexity and content. I didn't want to create a project too complext that would lack in content, but also I didn't want something with rich content that would be too simple. Therefore, I decided to create something a little more complex than Zelda. This would allow me to get creative with the content while keeping an acceptable level of complexity.
 
 The main sources of inspiration for this project were the Zelda project and Undertale (https://store.steampowered.com/app/391540/Undertale/). I liked the interaction between the player and the environment which was showcased in Zelda, as well as the concept of moving from 1 map to the other as seen in Undertale. So, I created a project combining both.
 
-## Implementation
+### Implementation
 
 After deciding on the core idea of the project, I began my research on 2D assets and ultimatelly, decided for a combination of assets taken from the following packs:
 - https://game-endeavor.itch.io/mystic-woods
@@ -53,7 +53,7 @@ The normal sub-state is the default one, and it allows the player to travel betw
 
 All maps use a reference to the World class which provides generic mechanisms for rendering and updating player-data. Therefore, all they do is generate the entities and objects populating the map and pass them to the generic World class.
 
-## Conclusion
+### Conclusion
 
 Given the above, I believe that the NPCs, the Inventory and Quest management and the support for multiple connected maps as well as support for easy extension of the game is what makes 'Quest' an unique and complex project.
 
