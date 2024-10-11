@@ -1,5 +1,11 @@
 # AndreeaStanculete
 
+This is the final project for the CS50's Introduction to Game Development course. 
+
+The purpose of this project was to create a game in either LÖVE or Unity, from start to finish. 
+
+## Quest
+
 'Quest' is a simple RPG game combining elements from Zelda and Undertale, in which the player embarks on a quest to gather several rubies. Each precious stone is stored away safely in a locked chest, which the player must open.
 
 Unfortunatelly for the player, things are a little more complicated than that. Each chest is guarded round the clock by undead skeletons. One of them surely must have the key to open it... if only we knew which one.
